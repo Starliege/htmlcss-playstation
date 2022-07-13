@@ -239,3 +239,43 @@
     color: #FFF;
     box-shadow: inset 0 0 0 3px #FFF;
   }
+
+  /* Nuove uscite */
+
+#newgames {
+    background-color: #1F1F1F; 
+    color: #FFF;
+  }
+  
+  #newgames h1, #newgames h2 {
+    margin-bottom: 30px;
+  }
+  
+  #newgames img {
+    border-radius: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #newgames a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  /* PS Plus */
+  #psplus {
+    background-color: #BEBCBB;
+  }
+  
+  #psplus a {
+    display: block;
+    width: fit-content;
+    background-color: #D9DADC;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: #3167E5 !important;
+    text-decoration: none;
+  }
+  
+  #psplus a:hover {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6);
+  }
