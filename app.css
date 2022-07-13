@@ -1,10 +1,14 @@
-#sony {
+    /* logo */
+
+   #sony {
     background-color: #000;
   }
   
   #sony img {
     height: 15px;
   }
+
+  /* navbar */
 
   .navbar {
     background-color: #FFF;
@@ -111,6 +115,8 @@
     font-size: 2rem;
   }
 
+  /* header */
+
   #jumbo {
     padding-top: 250px;
     background: url(img/jumbo-bg.png) center;
@@ -139,4 +145,97 @@
     padding: 2px;
     border-radius: 30px;
     margin-top: 0;
+  }
+
+  /* main */
+
+  main h1 {
+    margin-bottom: 50px;
+  }
+  
+  main h4 {
+    color: #727272;
+    margin-bottom: 50px;
+  }
+  
+  main h5 {
+    color: #4598DB;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  a.button-blue {
+    display: block;
+    width: fit-content;
+    background-color: #2D64E6;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: #FFF !important;
+    text-decoration: none;
+    border: 2px solid #2D64E6;
+  }
+  
+  a.button-blue:hover {
+    color: #FFF;
+    box-shadow: inset 0 0 0 3px #FFF;
+  }
+
+  /* Accessori */
+
+.accessori .col {
+    padding: 20px 0;
+  }
+  
+  .accessori a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .accessori a span {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+  }
+  
+  .accessori a:hover span, .accessori a:hover img {
+    opacity: 1;
+  }
+  
+  .accessori img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+  }
+  
+  .accessori .active {
+    border-bottom: 2px solid #0072CE;
+  }
+  
+  .accessori .active a span, .accessori .active img {
+    opacity: 1;
+}
+
+/* It takes two */
+
+#it-takes-two {
+    background: url(img/it-takes-two-hero-banner-desktop.jpg) center;
+    background-size: cover;
+    color: #FFF;
+  }
+  
+  #it-takes-two a {
+    display: block;
+    width: fit-content;
+    background-color: #CD3D0F;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: #FFF !important;
+    text-decoration: none;
+    border: 2px solid #CD3D0F;
+  }
+  
+  #it-takes-two a:hover {
+    color: #FFF;
+    box-shadow: inset 0 0 0 3px #FFF;
   }
